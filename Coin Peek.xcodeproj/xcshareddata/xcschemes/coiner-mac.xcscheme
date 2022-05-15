@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2CF3D2C5282933B1007495AB"
                BuildableName = "coiner-mac.app"
-               BlueprintName = "coiner-mac"
+               BlueprintName = "Coin Peek"
                ReferencedContainer = "container:Coin Peek.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,7 +46,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2CF3D2C5282933B1007495AB"
             BuildableName = "coiner-mac.app"
-            BlueprintName = "coiner-mac"
+            BlueprintName = "Coin Peek"
             ReferencedContainer = "container:Coin Peek.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -70,7 +70,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2CF3D2C5282933B1007495AB"
             BuildableName = "coiner-mac.app"
-            BlueprintName = "coiner-mac"
+            BlueprintName = "Coin Peek"
             ReferencedContainer = "container:Coin Peek.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -1,6 +1,6 @@
 //
-//  coiner_macApp.swift
-//  coiner-mac
+//  coin_peekApp.swift
+//  Coin Peek
 //
 //  Created by Albin Groen on 2022-05-09.
 //
@@ -10,7 +10,7 @@ import SDWebImage
 import SDWebImageSVGCoder
 
 @main
-struct coiner_macApp: App {
+struct coin_peekApp: App {
   init() {
     setUpDependencies()
   }
@@ -23,7 +23,7 @@ struct coiner_macApp: App {
   }
 }
 
-private extension coiner_macApp {
+private extension coin_peekApp {
   func setUpDependencies() {
     SDImageCodersManager.shared.addCoder(SDImageSVGCoder.shared)
   }

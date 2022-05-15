@@ -14,7 +14,7 @@
 		2CD6C199282AEC67001E504A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD6C198282AEC67001E504A /* Card.swift */; };
 		2CE3DFC3282B048C00AB7B8A /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2CE3DFC2282B048C00AB7B8A /* SDWebImageSwiftUI */; };
 		2CE3DFC6282B049E00AB7B8A /* SDWebImageSVGCoder in Frameworks */ = {isa = PBXBuildFile; productRef = 2CE3DFC5282B049E00AB7B8A /* SDWebImageSVGCoder */; };
-		2CF3D2CA282933B1007495AB /* coiner_macApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF3D2C9282933B1007495AB /* coiner_macApp.swift */; };
+		2CF3D2CA282933B1007495AB /* coin_peekApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF3D2C9282933B1007495AB /* coin_peekApp.swift */; };
 		2CF3D2CC282933B1007495AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF3D2CB282933B1007495AB /* ContentView.swift */; };
 		2CF3D2CE282933B1007495AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CF3D2CD282933B1007495AB /* Assets.xcassets */; };
 		2CF3D2D1282933B1007495AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CF3D2D0282933B1007495AB /* Preview Assets.xcassets */; };
@@ -24,12 +24,12 @@
 		2C001C88282E39880028C5F9 /* CoinHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinHistory.swift; sourceTree = "<group>"; };
 		2C521041282A6D82007180DF /* CoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinView.swift; sourceTree = "<group>"; };
 		2CD6C198282AEC67001E504A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
-		2CF3D2C6282933B1007495AB /* coiner-mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coiner-mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CF3D2C9282933B1007495AB /* coiner_macApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coiner_macApp.swift; sourceTree = "<group>"; };
+		2CF3D2C6282933B1007495AB /* Coin Peek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coin Peek.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CF3D2C9282933B1007495AB /* coin_peekApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coin_peekApp.swift; sourceTree = "<group>"; };
 		2CF3D2CB282933B1007495AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2CF3D2CD282933B1007495AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CF3D2D0282933B1007495AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2CF3D2D2282933B1007495AB /* coiner_mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = coiner_mac.entitlements; sourceTree = "<group>"; };
+		2CF3D2D2282933B1007495AB /* coin_peek.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = coin_peek.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 		2CF3D2BD282933B1007495AB = {
 			isa = PBXGroup;
 			children = (
-				2CF3D2C8282933B1007495AB /* coiner-mac */,
+				2CF3D2C8282933B1007495AB /* Coin Peek */,
 				2CF3D2C7282933B1007495AB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,24 +58,24 @@
 		2CF3D2C7282933B1007495AB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2CF3D2C6282933B1007495AB /* coiner-mac.app */,
+				2CF3D2C6282933B1007495AB /* Coin Peek.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2CF3D2C8282933B1007495AB /* coiner-mac */ = {
+		2CF3D2C8282933B1007495AB /* Coin Peek */ = {
 			isa = PBXGroup;
 			children = (
-				2CF3D2C9282933B1007495AB /* coiner_macApp.swift */,
+				2CF3D2C9282933B1007495AB /* coin_peekApp.swift */,
 				2CF3D2CB282933B1007495AB /* ContentView.swift */,
 				2CF3D2CD282933B1007495AB /* Assets.xcassets */,
-				2CF3D2D2282933B1007495AB /* coiner_mac.entitlements */,
+				2CF3D2D2282933B1007495AB /* coin_peek.entitlements */,
 				2CF3D2CF282933B1007495AB /* Preview Content */,
 				2C521041282A6D82007180DF /* CoinView.swift */,
 				2C001C88282E39880028C5F9 /* CoinHistory.swift */,
 				2CD6C198282AEC67001E504A /* Card.swift */,
 			);
-			path = "coiner-mac";
+			path = "Coin Peek";
 			sourceTree = "<group>";
 		};
 		2CF3D2CF282933B1007495AB /* Preview Content */ = {
@@ -89,9 +89,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2CF3D2C5282933B1007495AB /* coiner-mac */ = {
+		2CF3D2C5282933B1007495AB /* Coin Peek */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CF3D2D5282933B1007495AB /* Build configuration list for PBXNativeTarget "coiner-mac" */;
+			buildConfigurationList = 2CF3D2D5282933B1007495AB /* Build configuration list for PBXNativeTarget "Coin Peek" */;
 			buildPhases = (
 				2CF3D2C2282933B1007495AB /* Sources */,
 				2CF3D2C3282933B1007495AB /* Frameworks */,
@@ -101,7 +101,7 @@
 			);
 			dependencies = (
 			);
-			name = "coiner-mac";
+			name = "Coin Peek";
 			packageProductDependencies = (
 				2C1D4E1D2829A31E0087D2C3 /* Alamofire */,
 				2C1D4E202829A4000087D2C3 /* SwiftyJSON */,
@@ -109,7 +109,7 @@
 				2CE3DFC5282B049E00AB7B8A /* SDWebImageSVGCoder */,
 			);
 			productName = "coiner-mac";
-			productReference = 2CF3D2C6282933B1007495AB /* coiner-mac.app */;
+			productReference = 2CF3D2C6282933B1007495AB /* Coin Peek.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -146,7 +146,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2CF3D2C5282933B1007495AB /* coiner-mac */,
+				2CF3D2C5282933B1007495AB /* Coin Peek */,
 			);
 		};
 /* End PBXProject section */
@@ -172,7 +172,7 @@
 				2CD6C199282AEC67001E504A /* Card.swift in Sources */,
 				2CF3D2CC282933B1007495AB /* ContentView.swift in Sources */,
 				2C001C89282E39880028C5F9 /* CoinHistory.swift in Sources */,
-				2CF3D2CA282933B1007495AB /* coiner_macApp.swift in Sources */,
+				2CF3D2CA282933B1007495AB /* coin_peekApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,11 +297,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "coiner-mac/coiner_mac.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Coin Peek/coin_peek.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"coiner-mac/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Coin Peek/Preview Content\"";
 				DEVELOPMENT_TEAM = 27D76L9RB3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -325,11 +325,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "coiner-mac/coiner_mac.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Coin Peek/coin_peek.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"coiner-mac/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Coin Peek/Preview Content\"";
 				DEVELOPMENT_TEAM = 27D76L9RB3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -360,7 +360,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2CF3D2D5282933B1007495AB /* Build configuration list for PBXNativeTarget "coiner-mac" */ = {
+		2CF3D2D5282933B1007495AB /* Build configuration list for PBXNativeTarget "Coin Peek" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CF3D2D6282933B1007495AB /* Debug */,

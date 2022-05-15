@@ -1,6 +1,6 @@
 //
 //  Card.swift
-//  coiner-mac
+//  Coin Peek
 //
 //  Created by Albin Groen on 2022-05-10.
 //
