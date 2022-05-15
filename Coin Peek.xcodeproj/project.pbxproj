@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C001C89282E39880028C5F9 /* CoinHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C001C88282E39880028C5F9 /* CoinHistory.swift */; };
+		2C1D4E1E2829A31E0087D2C3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2C1D4E1D2829A31E0087D2C3 /* Alamofire */; };
+		2C1D4E212829A4000087D2C3 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 2C1D4E202829A4000087D2C3 /* SwiftyJSON */; };
+		2C521042282A6D82007180DF /* CoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C521041282A6D82007180DF /* CoinView.swift */; };
+		2CD6C199282AEC67001E504A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD6C198282AEC67001E504A /* Card.swift */; };
+		2CE3DFC3282B048C00AB7B8A /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2CE3DFC2282B048C00AB7B8A /* SDWebImageSwiftUI */; };
+		2CE3DFC6282B049E00AB7B8A /* SDWebImageSVGCoder in Frameworks */ = {isa = PBXBuildFile; productRef = 2CE3DFC5282B049E00AB7B8A /* SDWebImageSVGCoder */; };
 		2CF3D2CA282933B1007495AB /* coiner_macApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF3D2C9282933B1007495AB /* coiner_macApp.swift */; };
 		2CF3D2CC282933B1007495AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF3D2CB282933B1007495AB /* ContentView.swift */; };
 		2CF3D2CE282933B1007495AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CF3D2CD282933B1007495AB /* Assets.xcassets */; };
@@ -14,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C001C88282E39880028C5F9 /* CoinHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinHistory.swift; sourceTree = "<group>"; };
+		2C521041282A6D82007180DF /* CoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinView.swift; sourceTree = "<group>"; };
+		2CD6C198282AEC67001E504A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		2CF3D2C6282933B1007495AB /* coiner-mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coiner-mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CF3D2C9282933B1007495AB /* coiner_macApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coiner_macApp.swift; sourceTree = "<group>"; };
 		2CF3D2CB282933B1007495AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,6 +37,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CE3DFC3282B048C00AB7B8A /* SDWebImageSwiftUI in Frameworks */,
+				2C1D4E212829A4000087D2C3 /* SwiftyJSON in Frameworks */,
+				2C1D4E1E2829A31E0087D2C3 /* Alamofire in Frameworks */,
+				2CE3DFC6282B049E00AB7B8A /* SDWebImageSVGCoder in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +71,9 @@
 				2CF3D2CD282933B1007495AB /* Assets.xcassets */,
 				2CF3D2D2282933B1007495AB /* coiner_mac.entitlements */,
 				2CF3D2CF282933B1007495AB /* Preview Content */,
+				2C521041282A6D82007180DF /* CoinView.swift */,
+				2C001C88282E39880028C5F9 /* CoinHistory.swift */,
+				2CD6C198282AEC67001E504A /* Card.swift */,
 			);
 			path = "coiner-mac";
 			sourceTree = "<group>";
@@ -85,6 +102,12 @@
 			dependencies = (
 			);
 			name = "coiner-mac";
+			packageProductDependencies = (
+				2C1D4E1D2829A31E0087D2C3 /* Alamofire */,
+				2C1D4E202829A4000087D2C3 /* SwiftyJSON */,
+				2CE3DFC2282B048C00AB7B8A /* SDWebImageSwiftUI */,
+				2CE3DFC5282B049E00AB7B8A /* SDWebImageSVGCoder */,
+			);
 			productName = "coiner-mac";
 			productReference = 2CF3D2C6282933B1007495AB /* coiner-mac.app */;
 			productType = "com.apple.product-type.application";
@@ -104,7 +127,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2CF3D2C1282933B1007495AB /* Build configuration list for PBXProject "coiner-mac" */;
+			buildConfigurationList = 2CF3D2C1282933B1007495AB /* Build configuration list for PBXProject "Coin Peek" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,6 +136,12 @@
 				Base,
 			);
 			mainGroup = 2CF3D2BD282933B1007495AB;
+			packageReferences = (
+				2C1D4E1C2829A31E0087D2C3 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				2C1D4E1F2829A4000087D2C3 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				2CE3DFC1282B048C00AB7B8A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				2CE3DFC4282B049E00AB7B8A /* XCRemoteSwiftPackageReference "SDWebImageSVGCoder" */,
+			);
 			productRefGroup = 2CF3D2C7282933B1007495AB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,7 +168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C521042282A6D82007180DF /* CoinView.swift in Sources */,
+				2CD6C199282AEC67001E504A /* Card.swift in Sources */,
 				2CF3D2CC282933B1007495AB /* ContentView.swift in Sources */,
+				2C001C89282E39880028C5F9 /* CoinHistory.swift in Sources */,
 				2CF3D2CA282933B1007495AB /* coiner_macApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,13 +306,14 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.albingroen.coiner-mac";
+				PRODUCT_BUNDLE_IDENTIFIER = com.albingroen.coinview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -301,13 +334,14 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.albingroen.coiner-mac";
+				PRODUCT_BUNDLE_IDENTIFIER = com.albingroen.coinview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -317,7 +351,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2CF3D2C1282933B1007495AB /* Build configuration list for PBXProject "coiner-mac" */ = {
+		2CF3D2C1282933B1007495AB /* Build configuration list for PBXProject "Coin Peek" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CF3D2D3282933B1007495AB /* Debug */,
@@ -336,6 +370,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2C1D4E1C2829A31E0087D2C3 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		2C1D4E1F2829A4000087D2C3 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		2CE3DFC1282B048C00AB7B8A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		2CE3DFC4282B049E00AB7B8A /* XCRemoteSwiftPackageReference "SDWebImageSVGCoder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSVGCoder";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2C1D4E1D2829A31E0087D2C3 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C1D4E1C2829A31E0087D2C3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		2C1D4E202829A4000087D2C3 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C1D4E1F2829A4000087D2C3 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		2CE3DFC2282B048C00AB7B8A /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CE3DFC1282B048C00AB7B8A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		2CE3DFC5282B049E00AB7B8A /* SDWebImageSVGCoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CE3DFC4282B049E00AB7B8A /* XCRemoteSwiftPackageReference "SDWebImageSVGCoder" */;
+			productName = SDWebImageSVGCoder;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2CF3D2BE282933B1007495AB /* Project object */;
 }

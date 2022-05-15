@@ -6,12 +6,25 @@
 //
 
 import SwiftUI
+import SDWebImage
+import SDWebImageSVGCoder
 
 @main
 struct coiner_macApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  init() {
+    setUpDependencies()
+  }
+  
+  var body: some Scene {
+    WindowGroup {
+      ContentView().frame(maxWidth: 1200, maxHeight: 600)
     }
+    .windowStyle(.hiddenTitleBar)
+  }
+}
+
+private extension coiner_macApp {
+  func setUpDependencies() {
+    SDImageCodersManager.shared.addCoder(SDImageSVGCoder.shared)
+  }
 }
