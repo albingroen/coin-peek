@@ -72,7 +72,7 @@ struct ContentView: View {
               .scaledToFit()
               .frame(width: 11)
             
-            TextField("Search", text: $search)
+            TextField("Search coins", text: $search)
               .textFieldStyle(.plain)
               .padding(.horizontal, 8).padding(.vertical, 6)
               .onChange(of: search) { newValue in
